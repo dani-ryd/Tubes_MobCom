@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobcom.inikuisapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/flags_quiz_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/flags_quiz_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlagQuizApp">
+        <activity android:name="com.mobcom.inikuisapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
